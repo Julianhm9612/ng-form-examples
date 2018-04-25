@@ -107,8 +107,6 @@ export class AppComponent implements OnInit {
   }
 
   onReset() {
-    this.userData = this.myForm.value;
-
     while (this.links.length !== 0) {
       this.links.removeAt(0);
     }

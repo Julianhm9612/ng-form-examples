@@ -19,8 +19,9 @@ textarea {
 }
 
 .container {
-  width: 80%;
+  width: 60%;
   margin: 30px auto;
+  padding: 15px;
 }
 
 .row {
@@ -92,12 +93,17 @@ textarea {
 }
 
 .form-console {
+  flex: 300px;
   padding: 1rem;
   border: 1px solid #aaaaaa;
   border-radius: 3px;
   color: #333333;
   font-size: 1.125rem;
   background-color: #f0f0f0;
+
+  pre {
+    white-space: pre-wrap;
+  }
 }
 
 .form-data {
@@ -145,3 +151,17 @@ textarea {
   height: 10px;
   background-position: -78px -26px;
 }
+
+@media all and (max-width: 1320px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media all and (max-width: 720px) {
+  .container {
+    width: 100%;
+  }
+}
+
+
