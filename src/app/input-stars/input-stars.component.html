@@ -1,0 +1,3 @@
+<div>
+  <i class="star icon" [ngClass]="[val > value ? 'icon-star-empty': 'icon-star-full']" *ngFor="let val of values" (click)="onClick(val)"></i>
+</div>

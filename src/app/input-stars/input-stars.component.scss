@@ -1,0 +1,22 @@
+.star {
+  cursor: pointer;
+}
+
+.icon {
+  display: inline-block;
+  background: url('../../assets/sprite.svg') no-repeat;
+}
+
+.icon-star-empty {
+  width: 30px;
+  height: 30px;
+  background-position: 0 -63px;
+  background-size: 1000px auto;
+}
+
+.icon-star-full {
+  width: 30px;
+  height: 30px;
+  background-position: -65px -63px;
+  background-size: 1000px auto;
+}
